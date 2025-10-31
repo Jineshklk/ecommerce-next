@@ -1,36 +1,136 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ E-Commerce Next.js Project
 
-## Getting Started
+[Live Demo](https://ecommerce-next-9shc.onrender.com/)
 
-First, run the development server:
+A modern e-commerce web application built with **Next.js**, **React**, and **Tailwind CSS**. Users can browse products, add them to the cart, and proceed to checkout. Includes an admin dashboard for product management and real-time statistics.
+
+---
+
+## 🚀 Features
+
+### Frontend
+- Responsive and modern UI with **Tailwind CSS**
+- Product listing with images and prices
+- Add to cart with quantity updates
+- Cart summary with total price
+- Checkout page with order summary and mock payment placeholder
+- Recommendations page showing selected products
+- Navigation to Home, Cart, Recommendations, Admin, and Dashboard
+
+### Admin
+- View all products in a clean dashboard
+- Real-time statistics (e.g., total products, low stock)
+- Add new products (name, slug, price, image, inventory)
+
+### Context & State
+- **CartContext** using React Context API for global cart state
+- Real-time cart updates reflected in Navbar
+- Persistent state across pages
+
+### Next.js Features
+- API routes for managing products
+- SSR & static generation for better performance
+- Routing for products, cart, checkout, recommendations, admin, and dashboard
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Backend:** Node.js API routes (Next.js)
+- **State Management:** React Context API
+- **Deployment:** [Render](https://render.com/)
+
+---
+
+## 📂 Project Structure
+
+.
+├─ pages/
+│ ├─ index.tsx # Home / Products page
+│ ├─ cart.tsx # Shopping cart page
+│ ├─ checkout.tsx # Checkout page
+│ ├─ recommendations.tsx# Recommended products
+│ ├─ admin.tsx # Admin panel
+│ └─ dashboard.tsx # Admin statistics
+├─ components/
+│ ├─ Navbar.tsx
+│ └─ Footer.tsx
+├─ context/
+│ └─ CartContext.tsx # Cart state management
+├─ lib/
+│ ├─ products.ts # Product data
+│ └─ types.ts # Type definitions
+├─ public/images/ # Product images
+├─ styles/
+│ └─ globals.css # Tailwind CSS
+├─ tailwind.config.js
+└─ next.config.js
+
+yaml
+Copy code
+
+---
+
+## ⚡ Getting Started (Local)
+
+1. **Clone the repository:**
 
 ```bash
+git clone https://github.com/Jineshklk/ecommerce-next.git
+cd ecommerce-next
+Install dependencies:
+
+bash
+Copy code
+npm install
+Run the development server:
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open the app:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✅ Production Build
+bash
+Copy code
+npm run build
+npm start
+This simulates the production environment as on Render.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔧 Deployment
+This project is deployed on Render:
 
-## Learn More
+Live URL: https://ecommerce-next-9shc.onrender.com/
 
-To learn more about Next.js, take a look at the following resources:
+Render Web Service handles the Next.js server.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Make sure to set environment variables if required for future features.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📌 Notes
+Currently, checkout is a placeholder and does not process payments.
 
-## Deploy on Vercel
+Ensure images are placed in public/images/ and referenced as /images/filename.jpg.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Tailwind CSS is configured to purge unused styles in production. Dynamic class names should be either static or safelisted in tailwind.config.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+✨ Future Improvements
+Implement real payment gateway integration
+
+User authentication and account management
+
+Order history and tracking
+
+Dynamic recommendations using AI
+
+Inventory management with alerts for low stock
+
+📄 License
+This project is MIT Licensed.
+
+Made with ❤️ by Jinesh Kini
+
+yaml
+Copy code
