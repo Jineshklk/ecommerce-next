@@ -1,0 +1,91 @@
+[
+  {
+    "id": "1",
+    "name": "Red T-Shirt",
+    "slug": "red-tshirt",
+    "description": "Soft cotton T-shirt for everyday wear",
+    "price": 299,
+    "category": "Clothing",
+    "inventory": 25,
+    "lastUpdated": "2025-10-30T09:00:00Z",
+    "image": "/images/red-tshirt.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Blue Jeans",
+    "slug": "blue-jeans",
+    "description": "Slim fit denim jeans for casual comfort",
+    "price": 999,
+    "category": "Clothing",
+    "inventory": 10,
+    "lastUpdated": "2025-10-30T09:00:00Z",
+    "image": "/images/blue-jeans.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Black Hoodie",
+    "slug": "black-hoodie",
+    "description": "Warm fleece hoodie with adjustable strings",
+    "price": 899,
+    "category": "Clothing",
+    "inventory": 8,
+    "lastUpdated": "2025-10-31T09:00:00Z",
+    "image": "/images/black-hoodie.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Sneakers",
+    "slug": "sneakers",
+    "description": "Comfortable running sneakers with durable sole",
+    "price": 1999,
+    "category": "Footwear",
+    "inventory": 15,
+    "lastUpdated": "2025-10-31T09:00:00Z",
+    "image": "/images/sneakers.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Smart Watch",
+    "slug": "smart-watch",
+    "description": "Fitness smartwatch with heart-rate tracking",
+    "price": 2499,
+    "category": "Electronics",
+    "inventory": 5,
+    "lastUpdated": "2025-10-31T09:00:00Z",
+    "image": "/images/smart-watch.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Wireless Earbuds",
+    "slug": "wireless-earbuds",
+    "description": "Bluetooth 5.2 earbuds with noise cancellation",
+    "price": 1499,
+    "category": "Electronics",
+    "inventory": 3,
+    "lastUpdated": "2025-10-31T09:00:00Z",
+    "image": "/images/wireless-earbuds.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Laptop Backpack",
+    "slug": "laptop-backpack",
+    "description": "Water-resistant backpack with laptop sleeve",
+    "price": 1299,
+    "category": "Accessories",
+    "inventory": 12,
+    "lastUpdated": "2025-10-31T09:00:00Z",
+    "image": "/images/laptop-backpack.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Gaming Mouse",
+    "slug": "gaming-mouse",
+    "description": "RGB gaming mouse with high precision sensor",
+    "price": 799,
+    "category": "Electronics",
+    "inventory": 20,
+    "lastUpdated": "2025-10-31T09:00:00Z",
+    "image": "/images/gaming-mouse.jpg"
+  }
+  
+]
