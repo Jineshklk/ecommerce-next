@@ -1,5 +1,5 @@
 # 🛍️ E-Commerce Next.js Project
-
+NAME:JINESH L KINI DATE:31-10-2025
 [Live Demo](https://ecommerce-next-9shc.onrender.com/)
 
 A modern e-commerce web application built with **Next.js**, **React**, and **Tailwind CSS**. Users can browse products, add them to the cart, and proceed to checkout. Includes an admin dashboard for product management and real-time statistics.
